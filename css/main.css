@@ -1,0 +1,56 @@
+/*Container*/
+.el-header, .el-footer {
+    color: #333;
+    text-align: center;
+    line-height: 72px;
+    /*border-bottom: 1px solid #ccc;*/
+  }
+
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
+
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+  }
+
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+
+  /*.el-menu{height: 72px;line-height: 72px;}*/
+  .el-menu.el-menu--horizontal{border: 0;}
+  .el-menu--horizontal>.el-menu-item.is-active{border: 0;}
+
+  /*header*/
+  .logo{}
+  .logo a {
+    display: block;
+    width: 140px;
+    height: 72px;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.login-area{float: right;position: relative;}
+
+#header-unlogin li{height: 72px;float: left;}
+.app-download{line-height: 72px;color: rgba(255,255,255,0.6);}
+
+
+.el-menu-item .login{padding: 0 12px;}
